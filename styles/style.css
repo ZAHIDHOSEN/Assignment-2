@@ -19,13 +19,17 @@
     font-family: 'Miama';
     font-style: normal;
     font-weight: 300;
-    src: local('Miama'), url('https://fonts.cdnfonts.com/s/302/Miama.woff') format('woff');
+    src: local('Miama'), url('https://fonts.cdnfonts.com/s/302/Miama.ttf') format('ttf');
 }
 
  body{
     background-color: black;
 
 }*/
+#unique{
+    font-family: Miama;
+
+}
 /* shared styles */
 .btn-primary{
     border-radius: 46px;
@@ -102,7 +106,7 @@ font-weight: 400;
     
 }
 .banner-img{
-    width: 100%;
+    margin-right: 12rem;
 
     
     
@@ -157,10 +161,97 @@ font-size: 14px;
 font-weight: 400
 text-align: center;
 }
+
+/* run and extra section */
+.run{
+    border-radius: 18px;
+
+background: rgba(34, 34, 34,0.5);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.run-extra-title{
+    color: rgb(255, 255, 255);
+font-size: 3rem;
+font-weight: 900;
+text-align: left;
+}
+.run-extra-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.run-img{
+    width: 300px;
+}
+/*calculator related style */ 
+.calculator{
+    text-align: center;
+}
+.calculator-title{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 3rem;
+font-weight: 900;
+
+
+}
+.calculator-description{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1rem;
+
+
+}
+/*calculator chart related style*/
+.calculator-chart{
+    background: rgba(34, 34, 34, 0.5);
+    display: flex;
+    align-items: center;
+}
+.bmi-calculator-title{
+    color: white;
+}
+.table{
+  border-collapse: collapse;  
+}
+td{
+    color: white;
+    border: 1px solid white;
+}
+th{
+    color: white;
+    border: 1px solid white;
+}
+/* bmi calculator form related style */
+.from-title{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 2rem;
+font-weight: 900;
+text-align: left;
+
+}
+.from-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+}
+.calculator-section{
+    
+}
+
 /*responsive media queary */
 @media screen and (max-width:576px) 
     
-}
+
 
 
     
