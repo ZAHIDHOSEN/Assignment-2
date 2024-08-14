@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Miama';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Miama'), url('https://fonts.cdnfonts.com/s/302/Miama-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Miama';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Miama'), url('https://fonts.cdnfonts.com/s/302/Miama.woff') format('woff');
+}
+
+ body{
+    background-color: black;
+
+}*/
+/* shared styles */
+.btn-primary{
+    border-radius: 46px;
+
+background: rgb(230, 83, 60);
+font-family: Inter;
+background-color: rgb(230, 83, 60);;
+
+}
+/* header styles */
+.bg-light{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+/* navbar related styles */
+.navbar{
+
+width: 66rem;
+height: 3rem;
+left: 190px;
+top: 57px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+
+}
+.nav-left{
+    color: rgb(230, 83, 60);
+font-family: Inter;
+font-size: 36px;
+font-weight: 800;
+text-align: left;
+}
+.nav-right{
+    box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 39px;
+
+}
+.nav-btn{
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+/*banner part styles */
+.banner{
+    display: flex;
+    justify-content:space-between;
+    
+}
+.banner-title{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 5rem;
+font-weight: 900;
+text-align: left;
+}
+.banner-description{
+    color: rgba(255, 255, 255, 0.5);
+font-size: 1rem;
+font-weight: 400;
+}
+.join-club{
+    background-color:rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    border-radius: 3rem;
+    border-color:rgb(255, 255, 255) ;
+}
+.download-app{
+    color:rgb(255, 255, 255) ;
+    border-radius: 3rem;
+    background-color: black;
+    
+}
+.banner-img{
+    width: 100%;
+
+    
+    
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/*change your habit section */
+.your-habit-title{
+    color: rgb(255, 255, 255);
+font-size: 48px;
+font-weight: 900;
+text-align: center;
+}
+.your-habit-description{
+    color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+font-weight: 400;
+text-align: center;
+}
+
+/*card section*/
+.card{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.card-1-img{
+    border-radius: 50%;
+    border: 2px solid gray;
+}
+.card-2-img{
+    border-radius: 50%;
+    border: 2px solid gray;
+}
+.card-3-img{
+    border-radius: 50%;
+    border: 2px solid gray;
+}
+.card-4-img{
+    border-radius: 50%;
+    border: 2px solid gray;
+}
+.card-1-title{
+    color: rgba(255, 255, 255, 0.5);
+text-align: center;
+}
+.card-1-description{
+    color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+font-weight: 400
+text-align: center;
+}
+/*responsive media queary */
+@media screen and (max-width:576px) 
+    
+}
+
+
+    
+
+
+
+
