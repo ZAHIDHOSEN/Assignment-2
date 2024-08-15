@@ -369,7 +369,36 @@ font-weight: 400;
 
 
 /*responsive media queary */
-@media screen and (max-width:576px) 
+@media screen and (max-width:576px){
+     .nav-right{
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .run{
+        flex-direction: column;
+        
+    }
+    .calculator-chart{
+        flex-direction: column;
+    }
+    .our-team-img{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-class{
+        flex-direction: column;
+    }
+    
+    
+    
+}
+
     
 
 
